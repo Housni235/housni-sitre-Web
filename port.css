@@ -1,0 +1,117 @@
+/* Style général du corps de la page */
+body {
+    font-family: 'Source Sans Pro', Calibri, Tahoma, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 780px;
+    font-size: 16px;
+    border: 5px double #608db3;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px black;
+    background-color: rgba(255, 166, 0, 0.588);
+}
+
+/* Style de l'en-tête */
+header {
+    padding: 20px;
+    text-align: center;
+    border: 5px double #3388CC;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px black;
+    background-color: rgba(0, 255, 115, 0.295);
+}
+
+/* Style du titre principal (H1) */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style des sous-titres (H2) */
+h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Style des paragraphes */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style de la liste des réseaux sociaux */
+.reseaux-sociaux {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style des éléments de la liste des réseaux sociaux */
+.reseaux-sociaux li {
+    margin: 0 10px;
+}
+
+/* Style des liens des réseaux sociaux */
+.reseaux-sociaux a {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Style des icônes des réseaux sociaux */
+.reseaux-sociaux i {
+    margin-right: 5px;
+}
+
+/* Style du contenu principal */
+main {
+    padding: 20px;
+}
+
+/* Style de chaque section */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style des listes */
+.experiences-list, .competences-list, .formation-list, .realisations-list, .loisirs-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style des éléments des listes */
+.experiences-list li, .competences-list li, .formation-list li, .realisations-list li, .loisirs-list li {
+    margin-bottom: 10px;
+}
+
+/* Style des titres des expériences et réalisations (H3) */
+.experiences-list h3, .realisations-list h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Style des liens de la liste du portfolio */
+.portfolio-list a {
+    display: block;
+    text-decoration: none;
+}
+
+/* Style des images dans les sections */
+.about img, .portfolio-list img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style du pied de page */
+footer {
+    background-color: rgba(0, 255, 115, 0.295);
+    padding: 20px;
+    text-align: center;
+}
